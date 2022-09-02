@@ -1,0 +1,17 @@
+{
+	"name": "epicgames-webscraper",
+	"type": "module",
+	"scripts": {
+		"cards": "node src/cards.js",
+		"cards:rewrite": "node src/cards.js --rewrite",
+		"single-product": "node src/single-product.js",
+		"single-product-achievements": "node src/single-product-achievements.js",
+		"single-product-faq": "node src/single-product-faq.js",
+		"combined": "node src/combined.js",
+		"combined:remove-content": "node src/combined.js --remove-content"
+	},
+	"dependencies": {
+		"chalk": "5.0.1",
+		"puppeteer": "16.2.0"
+	}
+}
